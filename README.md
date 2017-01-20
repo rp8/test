@@ -1,6 +1,5 @@
-Test
-=====
 How to publish a npm package
+=====
 
 1. cd project_folder
 2. create package.json
@@ -13,5 +12,5 @@ or use a scope (@rp8@test).
 Patch
 =====
 
-5. npm patch
-6. npm publish
+1. npm patch
+2. npm publish

@@ -1,0 +1,42 @@
+{
+  "name": "@rp8/test",
+  "version": "0.0.3",
+  "license": "MIT",
+  "description": "this is a test",
+  "main": "app.js",
+  "keywords": [
+    "test"
+  ],
+  "author": "rp8",
+  "scripts": {
+    "server": "node \"src/server/app.js\"",
+    "lint": "tslint \"src/**/*.ts\" --project src/tsconfig.json --type-check && tslint \"e2e/**/*.ts\" --project e2e/tsconfig.json --type-check"
+  },
+  "private": false,
+  "dependencies": {
+    "rxjs": "^5.0.3",
+    "body-parser": "^1.16.0",
+    "colors": "^1.1.2",
+    "cookie-parser": "^1.4.3",
+    "core-js": "^2.4.1",
+    "csurf": "^1.9.0",
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
+    "express-validator": "^3.1.2",
+    "helmet": "^3.4.0",
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.4",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.2",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5"
+  },
+  "optionalDependencies": {}
+}

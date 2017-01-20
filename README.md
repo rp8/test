@@ -7,7 +7,7 @@ How to publish a npm package
 4. npm publish
 
 If the package name has conflict with other existing packages, change the package name
-or use a scope (@rp8@test).
+or use a scoped name (@rp8@test).
 
 Patch
 =====

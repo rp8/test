@@ -11,6 +11,6 @@ or use a scoped name (@rp8@test).
 
 Patch
 =====
-
-1. npm patch
-2. npm publish
+1. git add . && git commit 
+2. npm version patch
+3. npm publish

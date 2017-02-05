@@ -1,7 +1,7 @@
 How to publish a npm package
 =====
 
-1. cd project_folder
+1. cd project folder
 2. create package.json
 3. npm login
 4. npm publish
